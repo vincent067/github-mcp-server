@@ -83,8 +83,8 @@ claude mcp add github -e GITHUB_PERSONAL_ACCESS_TOKEN=$(grep GITHUB_PAT .env | c
 ```bash
 claude mcp add-json github '{"command": "github-mcp-server", "args": ["stdio"], "env": {"GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR_GITHUB_PAT"}}'
 ```
-2. Restart Claude Code
-3. Run `claude mcp list` to see if the GitHub server is configured
+4. Restart Claude Code
+5. Run `claude mcp list` to see if the GitHub server is configured
 
 ### Verification
 ```bash
